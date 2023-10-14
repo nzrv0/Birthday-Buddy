@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: rgb(251, 232, 254);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 98vh;
+}
+.container .card {
+  width: 536px;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.container .card .title {
+  font-weight: 400;
+  font-size: 32px;
+  color: black;
+}
+.container .card .peoples {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .card .peoples .people {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .card .peoples .people_image {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.container .card .peoples .people_bio {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container .card .peoples .people_bio .people_name {
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+.container .card .peoples .people_bio .people_age {
+  font-size: 16px;
+  font-weight: 400;
+  color: #64748b;
+}
+.container .card .clear_button {
+  max-width: 512px;
+  padding: 6px 12px;
+  color: white;
+  background-color: rgb(217, 71, 238);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=style.css.map */
